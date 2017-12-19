@@ -10,9 +10,12 @@ import UIKit
 
 class SkillVC: UIViewController {
 
+    var player: Player! // implicitly unwrapped...we promise there will be code in there!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        print(player.desiredLeague)
         // Do any additional setup after loading the view.
     }
 
