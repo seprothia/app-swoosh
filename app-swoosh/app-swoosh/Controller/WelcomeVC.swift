@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WelcomeVC.swift
 //  app-swoosh
 //
 //  Created by Benjamin Wilson on 16/12/2017.
@@ -8,11 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeVC: UIViewController {
 
     @IBOutlet weak var swoosh: UIImageView!
     @IBOutlet weak var bgImg: UIImageView!
-    
+    // Don't delete these...app is still looking for the references. Will crash! Right click on view controller in document outline tab to see outlets listed.
     
     
     override func viewDidLoad() {
